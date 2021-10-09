@@ -62,7 +62,8 @@ ReactDOM.render(
   <SignatureForm
       signature={signature}
       setSignature={setSignature}
-      canvasProps={{width: 500, height: 200}}
+      width={400}
+      height={200}
   />,
   document.getElementById('root')
 )
