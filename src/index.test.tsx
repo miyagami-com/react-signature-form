@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { SignatureForm } from '.'
 
 describe('ExampleComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(SignatureForm).toBeTruthy()
   })
 })
