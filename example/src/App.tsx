@@ -1,10 +1,23 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-import { ExampleComponent } from 'react-signature-form'
-import 'react-signature-form/dist/index.css'
+import { SignatureForm } from 'react-signature-form'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [signature, setSignature] = useState('');
+
+  return (
+    <div className="container">
+      <h1>React signature form</h1>
+      <p>A lightweight and customisable package to enable your <br /> users to set their autographs and save it to an image.</p>
+      <SignatureForm
+        signature={signature}
+        setSignature={setSignature}
+        width={400}
+        height={200}
+      />
+      <p>Made with ❤️ㅤby <a href="https://www.miyagami.com" target="_blank" rel="noreferrer">Miyagami</a></p>
+    </div>
+  )
 }
 
 export default App
