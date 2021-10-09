@@ -18,8 +18,13 @@ code {
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #ffff;
   justify-content: center;
   flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 p {

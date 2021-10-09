@@ -1,19 +1,23 @@
 # react-signature-form
 
-> A lightweight and customisable package to enable your users to set their autographs and save it to an image.
-
 [![NPM](https://img.shields.io/npm/v/react-signature-form.svg)](https://www.npmjs.com/package/react-signature-form)
 [![GitHub license](https://img.shields.io/badge/license-ICS-blue.svg)](https://npmjs.org/package/react-signature-form)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![dt](https://img.shields.io/npm/dt/react-signature-form.svg)](https://npmjs.org/package/react-signature-form)
 
+> A lightweight and customisable package to enable your users to set their autographs and save it to an image.
+
+<img alt="Demo gif" width="auto" src='https://media.giphy.com/media/0uWirc5DNNjc35GoZu/giphy.gif' />
+
 ## Contents
 
 * [Why?](#why)
+* [Demo?](#demo)
 * [Installation](#installation)
 * [Usage](#usage)
 * [API](#api)
 * [Props](#props)
+* [License](#license)
 
 ## Why?
 
@@ -27,6 +31,10 @@ We wanted to create a simple autograph form field, without any unnecessary funct
 And also is incredibly fault tolerant and performant.
 
 `react-signature-form` is the only tool that checks all of those boxes.
+
+## Demo
+
+Check out the demo of this library on [Github Pages.](https://miyagami-com.github.io/react-signature-form/)
 
 ## Installation
 

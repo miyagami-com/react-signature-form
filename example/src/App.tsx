@@ -15,7 +15,7 @@ const App = () => {
         width={400}
         height={200}
       />
-      <p>Made with ❤️ㅤby <a href="https://www.miyagami.com" target="_blank" rel="noreferrer">Miyagami</a></p>
+      <p>Made with <span aria-label="heart" role="img">❤️</span>ㅤby <a href="https://www.miyagami.com" target="_blank" rel="noreferrer noopener">Miyagami</a></p>
     </div>
   )
 }
