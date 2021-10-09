@@ -54,7 +54,7 @@ yarn add react-signature-form
 ```javascript
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom'
-import SignatureForm from 'react-signature-form'
+import {SignatureForm} from 'react-signature-form'
 
 const [signature, setSignature] = useState(null);
 
